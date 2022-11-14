@@ -1,0 +1,2 @@
+[system-distro-env]
+WESTON_RDP_MONITOR_REFRESH_RATE=160
