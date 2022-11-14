@@ -1,0 +1,68 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.245.2/containers/docker-existing-dockerfile
+{
+    "name": "Dotnet and Azure Functions",
+  
+    "build": {
+        "dockerfile": "Dockerfile",
+		"args": { 
+			// Update 'VARIANT' to pick a .NET Core version: 3.1, 6.0
+			// Append -bullseye or -focal to pin to an OS version.
+			"VARIANT": "6.0-focal",
+			// Options
+			"NODE_VERSION": "lts/*"
+		}
+    },
+    // Use 'forwardPorts' to make a list of ports inside the container available locally.
+    "forwardPorts": [7071],
+    // Uncomment the next line to run commands after the container is created - for example installing curl.
+    "features": {},
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-dotnettools.vscode-dotnet-pack",
+          "ms-dotnettools.vscode-dotnet-runtime",
+          "ms-dotnettools.dotnet-interactive-vscode",
+          "ms-vscode.azure-account",
+          "ms-azuretools.vscode-azureappservice",
+          "VisualStudioOnlineApplicationInsights.application-insights",
+          "ms-vscode.azurecli",
+          "ms-azuretools.azure-dev",
+          "ms-azuretools.vscode-azurefunctions",
+          "ms-azure-devops.azure-pipelines",
+          "azps-tools.azps-tools",
+          "ms-azuretools.vscode-azureresourcegroups",
+          "ms-azuretools.vscode-azurestorage",
+          "ms-vscode.vscode-node-azure-pack",
+          "Azurite.azurite",
+          "ms-dotnettools.csharp",
+          "streetsidesoftware.code-spell-checker",
+          "ms-azuretools.vscode-docker",
+          "eamodio.gitlens",
+          "VisualStudioExptTeam.vscodeintellicode",
+          "VisualStudioExptTeam.intellicode-api-usage-examples",
+          "VisualStudioExptTeam.vscodeintellicode-completions",
+          "ms-vscode.live-server",
+          "ms-vsliveshare.vsliveshare",
+          "42Crunch.vscode-openapi",
+          "ms-vscode.powershell",
+          "esbenp.prettier-vscode",
+          "humao.rest-client",
+          "mtxr.sqltools"
+        ]
+      }
+    },
+  
+    // Uncomment the next line to run commands after the container is created - for example installing curl.
+    "postCreateCommand": "apt-get update && apt-get install -y ca-certificates curl apt-transport-https lsb-release gnupg net-tools unzip default-jre azure-functions-core-tools-4 azure-cli default-jre",
+  
+    // Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+    // "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+  
+    // Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+    // "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+  
+    // Uncomment to connect as a non-root user if you've added one. See https://aka.ms/vscode-remote/containers/non-root.
+    "remoteUser": "vscode"
+  }
+  
