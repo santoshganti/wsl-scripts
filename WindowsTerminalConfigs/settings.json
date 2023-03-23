@@ -69,58 +69,95 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
+                "guid": "{1ad91667-d6b4-5eca-9731-dc8668593a8c}",
+                "hidden": false,
+                "name": "ubuntu2204",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
+            },
+            {
+                "guid": "{252e6d35-c9a9-5e5b-b255-5fa35a6f3077}",
+                "hidden": false,
+                "name": "ubuntu2004",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
+            },
+            {
                 "guid": "{552126d4-e5f3-5cd3-bbe1-f6745f494f9d}",
                 "hidden": false,
                 "name": "Debian-14",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{46d096da-63b4-5c5b-a378-a3891039f710}",
                 "hidden": false,
                 "name": "Fedora-37",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{31fedf18-67f0-5bb2-a62d-496eeb47dc93}",
                 "hidden": false,
                 "name": "SQP-Frontend",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{69cd8f4e-5e4f-5640-9d84-e72856cbffc3}",
                 "hidden": false,
                 "name": "SQP-Backend",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
+            },
+            {
+                "guid": "{70a75596-7f95-528e-8405-5c6b5fb6ed82}",
+                "hidden": false,
+                "name": "SQP-Metrics",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{712d91fc-cf04-5999-a2ba-874150a58dd1}",
                 "hidden": false,
                 "name": "SQP-WFA",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
+            },
+            {
+                "guid": "{b2522285-11e7-5bf5-a05c-ff3881b7d27e}",
+                "hidden": false,
+                "name": "SQP-Deployments",
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{4c802117-da8f-5d6d-b72a-b41f28559aba}",
                 "hidden": false,
                 "name": "OneBPM-Frontend",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{822966fd-6fd2-529b-b044-cdb322d5bd80}",
                 "hidden": false,
                 "name": "OneBPM-Backend",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{de81f387-b495-56c6-b416-c19024205993}",
                 "hidden": false,
                 "name": "MS-SQLServer",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{5965c8ec-fadf-5f2b-8e66-84e7d525fdd0}",
                 "hidden": false,
                 "name": "MS-Coherence",
-                "source": "Windows.Terminal.Wsl"
+                "source": "Windows.Terminal.Wsl",
+                "startingDirectory": "~"
             },
             {
                 "guid": "{0507f407-910d-55a8-af30-af01b36d29ee}",
@@ -145,18 +182,6 @@
                 "hidden": true,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{252e6d35-c9a9-5e5b-b255-5fa35a6f3077}",
-                "hidden": false,
-                "name": "ubuntu2004",
-                "source": "Windows.Terminal.Wsl"
-            },
-            {
-                "guid": "{1ad91667-d6b4-5eca-9731-dc8668593a8c}",
-                "hidden": false,
-                "name": "ubuntu2204",
-                "source": "Windows.Terminal.Wsl"
             }
         ]
     },
