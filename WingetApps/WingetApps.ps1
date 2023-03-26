@@ -20,11 +20,39 @@ winget install Microsoft.AzureDataCLI
 winget install Microsoft.PowerAppsCLI
 winget install CoreyButler.NVMforWindows
 
-# System Utilities
-winget install Microsoft.WindowsApplicationDriver
-winget install Microsoft.DirectX
-winget install Microsoft.MSIXCore
-winget install Microsoft.EdgeWebView2Runtime 
+# Tools
+winget install Microsoft.AzureFunctionsCoreTools
+winget install Microsoft.AzureStorageEmulator
+
+# Code Editors
+winget install Microsoft.VisualStudioCode
+winget install Microsoft.VisualStudioCode.Insiders
+winget install Microsoft.VisualStudio.2022.Enterprise
+winget install Microsoft.VisualStudio.2022.Enterprise.Preview
+
+# Browsers
+winget install Microsoft.Edge
+winget install Google.Chrome
+winget install Mozilla.Firefox
+
+# Databases Explorer
+winget install Microsoft.SQLServerManagementStudio
+
+# Developer Local Database
+winget install Microsoft.SQLServer.2019.Developer
+
+# Document Editing Applications
+winget install Adobe.Acrobat.Reader.64-bit
+winget install Microsoft Office
+winget install Microsoft.OneDrive
+winget install Microsoft.VisioViewer
+
+# Additional Apps used within OneBPM
+winget install Microsoft.PowerBI
+winget install Microsoft.PCManager
+
+
+
 
 # Development & Build Tools
 winget install Python.Python.3.12
@@ -77,7 +105,7 @@ winget install Google.Drive
 winget install Microsoft.PowerBI
 winget install Microsoft.MouseandKeyboardCenter
 winget install Microsoft.Teams
-winget install Microsoft.PCManager 
+winget install Microsoft.PCManager
 
 
 # Uncomment below lines to install WSL distributions of WSL
