@@ -51,9 +51,6 @@ winget install Microsoft.VisioViewer
 winget install Microsoft.PowerBI
 winget install Microsoft.PCManager
 
-
-
-
 # Development & Build Tools
 winget install Python.Python.3.12
 winget install Python.Python.2
@@ -117,3 +114,6 @@ winget install Microsoft.PCManager
 
 # Drivers
 winget install DisplayLink.GraphicsDriver
+
+# Install Azure Aritfact Credential Provider
+ iex "& { $(irm https://aka.ms/install-artifacts-credprovider.ps1) } -AddNetfx"
