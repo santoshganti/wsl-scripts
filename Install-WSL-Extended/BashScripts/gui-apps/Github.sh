@@ -9,7 +9,7 @@ curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo 
 && sudo apt install gh -y
 
 # Github Desktop
-sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.0.6-linux1/GitHubDesktop-linux-3.0.6-linux1.deb
-sudo dpkg -i GitHubDesktop-linux-3.0.6-linux1.deb
+sudo wget https://github.com/shiftkey/desktop/releases/download/release-3.1.1-linux1/GitHubDesktop-linux-3.1.1-linux1.deb
+sudo dpkg -i GitHubDesktop-linux-3.1.1-linux1.deb
 sudo apt --fix-broken install
-sudo dpkg -i GitHubDesktop-linux-3.0.6-linux1.deb
+sudo dpkg -i GitHubDesktop-linux-3.1.1-linux1.deb
