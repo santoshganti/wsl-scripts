@@ -3,9 +3,9 @@
 # winget source add --name msstore https://storeedgefd.dsx.mp.microsoft.com/v9.0
 
 # Terminals
-winget install Microsoft.WindowsTerminal
-winget install Microsoft.WindowsTerminal.Preview
-winget install Microsoft.PowerShell
+# winget install Microsoft.WindowsTerminal
+# winget install Microsoft.WindowsTerminal.Preview
+# winget install Microsoft.PowerShell
 
 # Git Tools
 winget install Microsoft.Git
@@ -51,25 +51,22 @@ winget install Microsoft.VisioViewer
 winget install Microsoft.PowerBI
 winget install Microsoft.PCManager
 
-
-
-
 # Development & Build Tools
-winget install Python.Python.3.12
-winget install Python.Python.2
+# winget install Python.Python.3.12
+# winget install Python.Python.2
 winget install Microsoft.NuGet
-winget install Microsoft.DotNet.SDK.7
-winget install Microsoft.DotNet.SDK.6 
-winget install Microsoft.DotNet.SDK.5 
-winget install Microsoft.DotNet.SDK.3_1
-winget install Microsoft.ServiceFabricRuntime
+# winget install Microsoft.DotNet.SDK.7
+# winget install Microsoft.DotNet.SDK.6 
+# winget install Microsoft.DotNet.SDK.5 
+# winget install Microsoft.DotNet.SDK.3_1
+# winget install Microsoft.ServiceFabricRuntime
 winget install Microsoft.AzureFunctionsCoreTools
 winget install Microsoft.AzureStorageEmulator
 
 # Visual Studio Code
-winget install Microsoft.VisualStudioCode
-winget install Microsoft.VisualStudioCode.Insiders
-winget install Microsoft.AzureMediaServicesExplorer 
+# winget install Microsoft.VisualStudioCode
+# winget install Microsoft.VisualStudioCode.Insiders
+# winget install Microsoft.AzureMediaServicesExplorer 
 winget install Microsoft.AzureDataStudio
 
 # Visual Studio and build tools
@@ -117,3 +114,6 @@ winget install Microsoft.PCManager
 
 # Drivers
 winget install DisplayLink.GraphicsDriver
+
+# Install Azure Aritfact Credential Provider
+ iex "& { $(irm https://aka.ms/install-artifacts-credprovider.ps1) } -AddNetfx"

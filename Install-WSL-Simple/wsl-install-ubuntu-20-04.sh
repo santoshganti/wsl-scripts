@@ -46,8 +46,13 @@ sudo apt-get update
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
 # Install dotnet and azure functions core tools and CUDA
-sudo apt-get install -y dotnet-sdk-6.0 dotnet-sdk-5.0 dotnet-sdk-3.1 azure-functions-core-tools-4 powershell
-echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
+sudo apt-get install -y dotnet-sdk-7.0 dotnet-sdk-6.0 dotnet-sdk-5.0 dotnet-sdk-3.1 azure-functions-core-tools-4 powershell
+
+# Install Azure Aritfact Credential Provider
+wget -qO- https://aka.ms/install-artifacts-credprovider.sh | bash
+
+# Install SQL Server Developer
+# echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 
 # Clean up command
 sudo apt autoremove
