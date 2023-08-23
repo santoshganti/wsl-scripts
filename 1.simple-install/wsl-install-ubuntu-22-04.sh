@@ -36,8 +36,6 @@ package_list="apt-utils \
         libgcc1 \
         libkrb5-3 \
         libgssapi-krb5-2 \
-        libicu[0-9][0-9] \
-        liblttng-ust[0-9] \
         libstdc++6 \
         zlib1g \
         locales \
